@@ -60,9 +60,14 @@
     display: none;
 }
 
+.container__texto {
+    display: none;
+}
+
 @media screen and (min-width: 1024px) {
     .container__titulo, .container__titulo--negrito {
         font-family: var(--fonte-secundario);
+        font-size: 1.3em;
     }
 
     .container__titulo {
@@ -101,5 +106,26 @@
 
     .opções__botão {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .container__link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--preto);
+    }
+
+    .cabeçalho {
+        padding: 0 2em;
+    }
+
+    .opções {
+        margin-right: auto;
+    }
+
+    .container__texto {
+        display: block;
     }
 }

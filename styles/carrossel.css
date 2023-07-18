@@ -29,6 +29,7 @@
 .card__botões {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .botões {
@@ -98,5 +99,42 @@
     .card {
         width: 40%;
         margin: 2em auto;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 10vw 3em 10vw;
+    }
+
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+
+    .swiper {
+        width: 90%;
+    }
+
+    .descrição__titulo {
+        font-size: 32px;
+    }
+
+    .descrição__texto {
+        font-size: 16px;
+    }
+
+    .descrição {
+        margin-right: 1.4em;
+    }
+
+    .card {
+        width: 100%;
+        margin-left: 2.5em;
+    }
+
+    .swiper-pagination {
+        position: initial;
+        margin: 1.8em 0;
     }
 }
